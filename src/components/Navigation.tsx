@@ -44,12 +44,26 @@ const Navigation = () => {
           </div>
           
           <div className="hidden lg:flex items-center space-x-4 text-sm">
-            <span className="flex items-center">
-              📞 044 941 53 83
-            </span>
-            <span className="flex items-center">
-              📧 Info@fredys-bodenbelaege.ch
-            </span>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="text-primary hover:bg-gold/10"
+              asChild
+            >
+              <a href="tel:+41798703420" className="flex items-center gap-1">
+                📞 079 870 34 20
+              </a>
+            </Button>
+            <Button
+              variant="ghost"
+              size="sm"
+              className="text-primary hover:bg-gold/10"
+              asChild
+            >
+              <a href="mailto:Info@fredys-bodenbelaege.ch" className="flex items-center gap-1">
+                📧 E-Mail senden
+              </a>
+            </Button>
           </div>
         </div>
       </div>

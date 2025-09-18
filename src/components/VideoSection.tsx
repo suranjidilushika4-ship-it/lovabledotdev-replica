@@ -81,6 +81,17 @@ const VideoSection = () => {
             </Card>
           ))}
         </div>
+        
+        <div className="text-center mt-12">
+          <Button 
+            variant="outline" 
+            size="lg"
+            className="border-gold text-gold hover:bg-gold hover:text-white"
+            asChild
+          >
+            <a href="/videos">Alle Videos anzeigen ({12 - 4} weitere)</a>
+          </Button>
+        </div>
       </div>
     </section>
   );

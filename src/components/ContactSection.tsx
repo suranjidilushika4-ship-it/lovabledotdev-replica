@@ -103,6 +103,20 @@ const ContactSection = () => {
                 >
                   <a href="https://api.whatsapp.com/send?phone=%2B41798703420">WhatsApp</a>
                 </Button>
+                <Button 
+                  variant="outline"
+                  size="sm" 
+                  className="border-pink-500 text-pink-600 hover:bg-pink-500 hover:text-white w-full"
+                  asChild
+                >
+                  <a 
+                    href="https://www.instagram.com/fredys_bodenbelage?igsh=ZnE1aTV0MXhnb21j&utm_source=qr"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                  >
+                    📸 Instagram
+                  </a>
+                </Button>
               </div>
             </CardContent>
           </Card>
