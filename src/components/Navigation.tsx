@@ -50,18 +50,18 @@ const Navigation = () => {
               className="text-primary hover:bg-gold/10"
               asChild
             >
-              <a href="tel:+41798703420" className="flex items-center gap-1">
+              <a href="tel:+41798703420" className="flex items-center gap-2">
                 📞 079 870 34 20
               </a>
             </Button>
             <Button
-              variant="ghost"
+              variant="default"
               size="sm"
-              className="text-primary hover:bg-gold/10"
+              className="bg-gold hover:bg-gold-dark text-white font-semibold px-4 py-2"
               asChild
             >
-              <a href="mailto:Info@fredys-bodenbelaege.ch" className="flex items-center gap-1">
-                📧 E-Mail senden
+              <a href="mailto:Info@fredys-bodenbelaege.ch" className="flex items-center gap-2">
+                📧 Info@fredys-bodenbelaege.ch
               </a>
             </Button>
           </div>

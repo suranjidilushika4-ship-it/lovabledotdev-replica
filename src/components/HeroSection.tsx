@@ -37,7 +37,7 @@ const HeroSection = () => {
               <Button 
                 variant="default"
                 size="lg"
-                className="bg-gold hover:bg-gold-dark text-white"
+                className="bg-gold hover:bg-gold-dark text-white font-semibold"
                 asChild
               >
                 <a href="tel:+41798703420">📞 079 870 34 20</a>
@@ -45,7 +45,7 @@ const HeroSection = () => {
               <Button 
                 variant="outline"
                 size="lg"
-                className="border-white text-white hover:bg-white hover:text-primary"
+                className="border-white bg-white/10 text-white hover:bg-white hover:text-primary font-semibold backdrop-blur-sm"
                 asChild
               >
                 <a href="mailto:Info@fredys-bodenbelaege.ch">📧 Info@fredys-bodenbelaege.ch</a>

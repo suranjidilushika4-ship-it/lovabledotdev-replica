@@ -134,6 +134,163 @@ const Gallery = () => {
       description: 'Fachgerechte Reparatur- und Renovierungsarbeiten',
       category: 'Reparatur',
       image: reparaturen
+    },
+    // Additional professional floor images
+    {
+      title: 'Luxus Parkett Installation',
+      description: 'Hochwertiges Eichenparkett in modernem Wohnbereich',
+      category: 'Parkett',
+      image: 'https://images.unsplash.com/photo-1586023492125-27b2c045efd7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Designvinyl Verlegung',
+      description: 'Moderne Designvinyl-Lösung für Geschäftsräume',
+      category: 'Vinyl',
+      image: 'https://images.unsplash.com/photo-1581858726788-75bc0f6a952d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Keramikfliesen Bad',
+      description: 'Elegante Keramikverlegung im Badezimmer',
+      category: 'Keramik',
+      image: 'https://images.unsplash.com/photo-1582977999383-9c96cd049d71?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Büroteppich Verlegung',
+      description: 'Professionelle Teppichverlegung für Büroräume',
+      category: 'Teppich',
+      image: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Laminat Wohnzimmer',
+      description: 'Hochwertige Laminatverlegung mit perfekten Übergängen',
+      category: 'Laminat',
+      image: 'https://images.unsplash.com/photo-1502672260266-1c1ef2d93688?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Naturkork Küche',
+      description: 'Umweltfreundlicher Kork-Bodenbelag in der Küche',
+      category: 'Kork',
+      image: 'https://images.unsplash.com/photo-1565814329452-e1efa11c5b89?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Linoleum Praxis',
+      description: 'Hygienischer Linoleum-Belag für medizinische Praxis',
+      category: 'Linoleum',
+      image: 'https://images.unsplash.com/photo-1609803384763-9de0c4a97b48?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Industrieller Kautschuk',
+      description: 'Robuster Kautschuk-Belag für Industrieanwendungen',
+      category: 'Kautschuk',
+      image: 'https://images.unsplash.com/photo-1540932239986-30128078f3c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Moderne Wandverkleidung',
+      description: 'Zeitgemäße Wandgestaltung mit hochwertigen Materialien',
+      category: 'Wandbelag',
+      image: 'https://images.unsplash.com/photo-1631679706909-1844bbd07221?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Präzise Sockelarbeiten',
+      description: 'Perfekte Sockelleisten-Installation für saubere Abschlüsse',
+      category: 'Installation',
+      image: 'https://images.unsplash.com/photo-1541123603104-512919d6a96c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Hochwertige Materialien',
+      description: 'Erstklassige Bodenbelag-Materialien unserer Partner',
+      category: 'Materialien',
+      image: 'https://images.unsplash.com/photo-1484154218962-a197022b5858?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Komplette Renovierung',
+      description: 'Vollständige Boden- und Wandrenovierung eines Objekts',
+      category: 'Renovierung',
+      image: 'https://images.unsplash.com/photo-1560472354-b33ff0c44a43?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Luxus Showroom',
+      description: 'Unser Showroom mit exklusiven Bodenbelag-Kollektionen',
+      category: 'Showroom',
+      image: 'https://images.unsplash.com/photo-1555041469-a586c61ea9bc?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Terrazzo Verlegung',
+      description: 'Exklusive Terrazzo-Böden für besondere Ansprüche',
+      category: 'Terrazzo',
+      image: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Design Epoxidharz',
+      description: 'Moderne Epoxidharz-Böden für Gewerbe und Industrie',
+      category: 'Epoxid',
+      image: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Naturstein Verlegung',
+      description: 'Edle Naturstein-Installation für exklusive Bereiche',
+      category: 'Naturstein',
+      image: 'https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Outdoor Terrasse',
+      description: 'Wetterfeste Beläge für Terrassen und Außenbereiche',
+      category: 'Outdoor',
+      image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Barrierefreie Lösungen',
+      description: 'Spezielle Bodenbeläge für barrierefreie Zugänge',
+      category: 'Barrierefrei',
+      image: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Hotel Lobby',
+      description: 'Repräsentative Bodenbeläge für Hotel- und Empfangsbereiche',
+      category: 'Hotel',
+      image: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Restaurant Boden',
+      description: 'Pflegeleichte Beläge für Gastronomie und Restaurants',
+      category: 'Gastronomie',
+      image: 'https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Sportstätte Belag',
+      description: 'Spezielle Sportböden für Turnhallen und Fitnessstudios',
+      category: 'Sport',
+      image: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Kinderzimmer Sicherheit',
+      description: 'Kindersichere und schadstofffreie Bodenbeläge',
+      category: 'Kinderzimmer',
+      image: 'https://images.unsplash.com/photo-1584464491033-06628f3a6b7b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Büro Modern',
+      description: 'Zeitgemäße Bürobodenbeläge für produktive Arbeitsplätze',
+      category: 'Büro',
+      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Wellness Bereich',
+      description: 'Feuchtigkeitsresistente Beläge für Spa und Wellness',
+      category: 'Wellness',
+      image: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Vintage Stil',
+      description: 'Authentische Vintage-Böden für besondere Atmosphäre',
+      category: 'Vintage',
+      image: 'https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Showroom Display',
+      description: 'Professionelle Präsentation unserer Materialvielfalt',
+      category: 'Display',
+      image: 'https://images.unsplash.com/photo-1549482344-c4cc462be0de?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     }
   ];
 
@@ -155,8 +312,8 @@ const Gallery = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 text-primary">Komplette Bildergalerie</h1>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Entdecken Sie unsere vollständige Sammlung von Arbeiten, Materialien und Projekten. 
-              Von der ersten Beratung bis zur finalen Installation - sehen Sie die Qualität unserer Arbeit.
+              Entdecken Sie unsere vollständige Sammlung von über 43 Arbeiten, Materialien und Projekten. 
+              Von der ersten Beratung bis zur finalen Installation - sehen Sie die Qualität und Vielfalt unserer Arbeit.
             </p>
           </div>
           

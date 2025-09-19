@@ -44,8 +44,8 @@ const ContactSection = () => {
             <CardContent>
               <p className="text-muted-foreground mb-4">Schreiben Sie uns</p>
               <Button 
-                variant="outline"
-                className="border-gold text-gold hover:bg-gold hover:text-white"
+                variant="default"
+                className="bg-gold hover:bg-gold-dark text-white font-semibold"
                 asChild
               >
                 <a href="mailto:Info@fredys-bodenbelaege.ch">Info@fredys-bodenbelaege.ch</a>

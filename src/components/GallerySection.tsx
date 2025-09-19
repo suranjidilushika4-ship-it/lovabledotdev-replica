@@ -91,7 +91,7 @@ const GallerySection = () => {
             className="border-gold text-gold hover:bg-gold hover:text-white"
             asChild
           >
-            <a href="/gallery">Alle Bilder anzeigen ({18 - 6} weitere)</a>
+            <a href="/gallery">Alle Bilder anzeigen (43+ weitere)</a>
           </Button>
         </div>
       </div>

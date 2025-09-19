@@ -15,7 +15,7 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-muted/50">
       <div className="container mx-auto px-4">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div>
+          <div className="lg:order-2">
             <h2 className="text-4xl font-bold mb-8 text-primary">Über mich</h2>
             
             <div className="space-y-6 text-lg">
@@ -44,11 +44,11 @@ const AboutSection = () => {
             </div>
           </div>
           
-          <div className="text-center">
+          <div className="text-center lg:order-1">
             <img 
               src={fredyPortrait} 
               alt="Fredy - Ihr Spezialist für Bodenbeläge" 
-              className="w-full max-w-md mx-auto rounded-lg shadow-lg"
+              className="w-full max-w-md mx-auto rounded-lg shadow-xl border-4 border-gold/20"
             />
           </div>
         </div>

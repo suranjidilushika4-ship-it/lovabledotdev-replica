@@ -90,6 +90,84 @@ const Videos = () => {
       category: 'Qualität',
       duration: '3:05',
       thumbnail: 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    // Additional professional videos
+    {
+      title: 'Designvinyl Installation',
+      subtitle: 'Moderne Designvinyl-Verlegung Schritt für Schritt',
+      category: 'Vinyl',
+      duration: '4:30',
+      thumbnail: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Terrazzo Schleifarbeiten',
+      subtitle: 'Professionelle Terrazzo-Sanierung und Politur',
+      category: 'Terrazzo',
+      duration: '5:45',
+      thumbnail: 'https://images.unsplash.com/photo-1556075798-4825dfaaf498?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Naturstein Verarbeitung',
+      subtitle: 'Edle Naturstein-Installation für exklusive Bereiche',
+      category: 'Naturstein',
+      duration: '6:20',
+      thumbnail: 'https://images.unsplash.com/photo-1615971677499-5467cbab01c0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Epoxidharz Beschichtung',
+      subtitle: 'Moderne Epoxidharz-Böden für Gewerbe und Industrie',
+      category: 'Epoxid',
+      duration: '4:15',
+      thumbnail: 'https://images.unsplash.com/photo-1589939705384-5185137a7f0f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Barrierefreie Installation',
+      subtitle: 'Spezielle Techniken für barrierefreie Zugänge',
+      category: 'Barrierefrei',
+      duration: '3:40',
+      thumbnail: 'https://images.unsplash.com/photo-1558618047-3c8c76ca7d13?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Großprojekt Hotel',
+      subtitle: 'Komplette Bodenbelag-Renovierung eines Hotels',
+      category: 'Großprojekt',
+      duration: '8:30',
+      thumbnail: 'https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Sportboden Installation',
+      subtitle: 'Spezielle Sportböden für Turnhallen und Fitnessstudios',
+      category: 'Sport',
+      duration: '5:10',
+      thumbnail: 'https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Restaurierung Altbau',
+      subtitle: 'Denkmalgerechte Restaurierung historischer Böden',
+      category: 'Restaurierung',
+      duration: '7:25',
+      thumbnail: 'https://images.unsplash.com/photo-1543198126-a8ad8e47fb22?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Wellness Bereich',
+      subtitle: 'Feuchtigkeitsresistente Beläge für Spa und Wellness',
+      category: 'Wellness',
+      duration: '4:05',
+      thumbnail: 'https://images.unsplash.com/photo-1571902943202-507ec2618e8f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Industrieboden Sanierung',
+      subtitle: 'Komplette Sanierung von Industrieböden',
+      category: 'Industrie',
+      duration: '6:45',
+      thumbnail: 'https://images.unsplash.com/photo-1540932239986-30128078f3c5?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
+    },
+    {
+      title: 'Kundentestimonials',
+      subtitle: 'Zufriedene Kunden sprechen über unsere Arbeit',
+      category: 'Testimonials',
+      duration: '3:15',
+      thumbnail: 'https://images.unsplash.com/photo-1497366216548-37526070297c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'
     }
   ];
 
@@ -111,8 +189,8 @@ const Videos = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 text-primary">Video Galerie</h1>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Erleben Sie unsere professionelle Arbeit in Aktion. Von der Vorbereitung bis zur finalen Verlegung - 
-              sehen Sie selbst, wie Qualität und Handwerkskunst entstehen.
+              Erleben Sie unsere professionelle Arbeit in über 24 Videos. Von der Vorbereitung bis zur finalen Verlegung - 
+              sehen Sie selbst, wie Qualität und Handwerkskunst in verschiedensten Projekten entstehen.
             </p>
           </div>
           
