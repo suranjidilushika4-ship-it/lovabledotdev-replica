@@ -82,22 +82,14 @@ const VideoSection = () => {
           ))}
         </div>
         
-        <div className="text-center mt-12 space-y-4">
+        <div className="text-center mt-12">
           <Button 
             variant="outline" 
             size="lg"
-            className="border-gold text-gold hover:bg-gold hover:text-white mr-4"
+            className="border-gold text-gold hover:bg-gold hover:text-white"
             asChild
           >
             <a href="/videos">Alle Videos anzeigen (24+ Videos)</a>
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-primary text-primary hover:bg-primary hover:text-white"
-            asChild
-          >
-            <a href="#contact">Persönliche Beratung vereinbaren</a>
           </Button>
         </div>
       </div>

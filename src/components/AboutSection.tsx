@@ -14,42 +14,52 @@ const AboutSection = () => {
   return (
     <section id="about" className="py-20 bg-muted/50">
       <div className="container mx-auto px-4">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="lg:order-2">
-            <h2 className="text-4xl font-bold mb-8 text-primary">Über mich</h2>
+        {/* Fredy's profile image at the top */}
+        <div className="text-center mb-16">
+          <div className="relative inline-block">
+            <img 
+              src={fredyPortrait} 
+              alt="Fredy - Ihr Spezialist für Bodenbeläge" 
+              className="w-48 h-48 mx-auto rounded-full shadow-2xl border-8 border-gold/30 object-cover"
+            />
+            <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
+              <div className="bg-gold text-white px-6 py-2 rounded-full font-semibold text-lg shadow-lg">
+                Fredy - Ihr Experte
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div className="max-w-4xl mx-auto">
+          <div className="text-center mb-12">
+            <h2 className="text-5xl font-bold mb-8 text-primary">Über mich</h2>
             
-            <div className="space-y-6 text-lg">
-              <p>
+            <div className="space-y-8 text-lg text-center max-w-4xl mx-auto">
+              <p className="text-2xl leading-relaxed">
                 <strong className="text-gold">Hallo, ich bin Fredy</strong> – Ihr Spezialist für hochwertige Bodenbeläge und Innenraumlösungen.
               </p>
               
-              <p>
+              <p className="text-xl leading-relaxed">
                 Mit über <strong>20 Jahren praktischer Erfahrung</strong> hatte ich das Privileg, unzähligen Kunden dabei zu helfen, ihre Räume in etwas ganz Besonderes zu verwandeln.
               </p>
               
-              <p>
+              <p className="text-lg leading-relaxed">
                 Von Parkett, Vinyl & Linoleum, Laminat & Kork, Teppich & Kautschuk bis hin zu Stein- & Keramikplatten biete ich das komplette Spektrum an Bodenbelagsarbeiten. Doch meine Arbeit endet nicht beim Boden – ich kümmere mich auch um Wandschutz, Sockel- & Silikonarbeiten sowie zuverlässige Reparaturen, damit jedes Projekt bis ins kleinste Detail perfekt abgeschlossen ist.
               </p>
             </div>
             
-            <div className="mt-8">
-              <h3 className="text-2xl font-semibold mb-4 text-primary">Was macht meinen Ansatz besonders?</h3>
-              <p className="text-lg mb-6">
-                Ich bin überzeugt: <strong>Jedes Projekt ist persönlich.</strong> Deshalb nehme ich mir die Zeit, Ihre Wünsche, Ihren Lebensstil und Ihre Bedürfnisse genau zu verstehen. Durch die Kombination von traditionellem Handwerk und modernen Techniken entstehen Ergebnisse, die nicht nur langlebig, sondern auch stilvoll und individuell auf Sie zugeschnitten sind.
-              </p>
-              
-              <p className="text-lg">
-                Für mich geht es um mehr als nur um das Verlegen von Böden – es geht darum, Wohn- und Arbeitsräume zu schaffen, die komfortabel, funktional und ästhetisch ansprechend sind und an denen Sie viele Jahre Freude haben werden.
-              </p>
+            <div className="mt-16 max-w-4xl mx-auto">
+              <h3 className="text-3xl font-semibold mb-8 text-center text-primary">Was macht meinen Ansatz besonders?</h3>
+              <div className="space-y-6 text-lg text-center">
+                <p className="leading-relaxed">
+                  Ich bin überzeugt: <strong>Jedes Projekt ist persönlich.</strong> Deshalb nehme ich mir die Zeit, Ihre Wünsche, Ihren Lebensstil und Ihre Bedürfnisse genau zu verstehen. Durch die Kombination von traditionellem Handwerk und modernen Techniken entstehen Ergebnisse, die nicht nur langlebig, sondern auch stilvoll und individuell auf Sie zugeschnitten sind.
+                </p>
+                
+                <p className="leading-relaxed">
+                  Für mich geht es um mehr als nur um das Verlegen von Böden – es geht darum, Wohn- und Arbeitsräume zu schaffen, die komfortabel, funktional und ästhetisch ansprechend sind und an denen Sie viele Jahre Freude haben werden.
+                </p>
+              </div>
             </div>
-          </div>
-          
-          <div className="text-center lg:order-1">
-            <img 
-              src={fredyPortrait} 
-              alt="Fredy - Ihr Spezialist für Bodenbeläge" 
-              className="w-full max-w-md mx-auto rounded-lg shadow-xl border-4 border-gold/20"
-            />
           </div>
         </div>
         
