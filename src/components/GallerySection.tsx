@@ -2,12 +2,25 @@ import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
-// Import all gallery images
-import musterkollektion from '@/assets/musterkollektion.png';
-import wandgestaltung from '@/assets/wandgestaltung.png';
-import partnerLieferanten from '@/assets/partner-lieferanten.png';
+// Import all original gallery images
+import heroBackground from '@/assets/hero-background.jpg';
+import kautschukBodenbelag from '@/assets/kautschuk-bodenbelag.jpg';
+import korkBodenbelag from '@/assets/kork-bodenbelag.jpg';
+import laminatKork from '@/assets/laminat-kork.jpg';
 import laminatMusterfaecher from '@/assets/laminat-musterfaecher.png';
+import linoleumBodenbelag from '@/assets/linoleum-bodenbelag.jpg';
+import musterkollektion from '@/assets/musterkollektion.png';
 import parkettKollektion from '@/assets/parkett-kollektion.png';
+import parkettVerlegen from '@/assets/parkett-verlegen.jpg';
+import partnerLieferanten from '@/assets/partner-lieferanten.png';
+import reparaturen from '@/assets/reparaturen.jpg';
+import silikonAbdichtung from '@/assets/silikon-abdichtung.jpg';
+import sockelInstallation from '@/assets/sockel-installation.jpg';
+import steinKeramik from '@/assets/stein-keramik.jpg';
+import teppichKautschuk from '@/assets/teppich-kautschuk.jpg';
+import vinylLinoleum from '@/assets/vinyl-linoleum.jpg';
+import wandgestaltung from '@/assets/wandgestaltung.png';
+import wandschutz from '@/assets/wandschutz.jpg';
 import farbMusterfaecher from '@/assets/farb-musterfaecher.png';
 
 const GallerySection = () => {
@@ -91,7 +104,7 @@ const GallerySection = () => {
             className="border-gold text-gold hover:bg-gold hover:text-white"
             asChild
           >
-            <a href="/gallery">Alle Bilder anzeigen (43+ weitere)</a>
+            <a href="/gallery">Alle Bilder anzeigen (19 Bilder)</a>
           </Button>
         </div>
       </div>

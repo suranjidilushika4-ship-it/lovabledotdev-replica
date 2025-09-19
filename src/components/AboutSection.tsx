@@ -15,15 +15,15 @@ const AboutSection = () => {
     <section id="about" className="py-20 bg-muted/50">
       <div className="container mx-auto px-4">
         {/* Fredy's profile image at the top */}
-        <div className="text-center mb-16">
+        <div className="text-center mb-20">
           <div className="relative inline-block">
             <img 
               src={fredyPortrait} 
               alt="Fredy - Ihr Spezialist für Bodenbeläge" 
-              className="w-48 h-48 mx-auto rounded-full shadow-2xl border-8 border-gold/30 object-cover"
+              className="w-64 h-64 mx-auto rounded-full shadow-2xl border-8 border-gold/30 object-cover"
             />
-            <div className="absolute -bottom-4 left-1/2 transform -translate-x-1/2">
-              <div className="bg-gold text-white px-6 py-2 rounded-full font-semibold text-lg shadow-lg">
+            <div className="absolute -bottom-8 left-1/2 transform -translate-x-1/2">
+              <div className="bg-gold text-white px-8 py-3 rounded-full font-semibold text-xl shadow-lg">
                 Fredy - Ihr Experte
               </div>
             </div>
