@@ -26,6 +26,17 @@ import img4884 from '@/assets/img-4884.jpg';
 import img4977 from '@/assets/img-4977.jpg';
 import img8320 from '@/assets/img-8320.jpg';
 import img1356 from '@/assets/img-1356.jpg';
+// New images (uploaded)
+import img9792 from '@/assets/img-9792.jpg';
+import img0071 from '@/assets/img-0071.jpg';
+import img0146 from '@/assets/img-0146.jpg';
+import img5655 from '@/assets/img-5655.jpg';
+import img5661 from '@/assets/img-5661.jpg';
+import img7053 from '@/assets/img-7053.jpg';
+import img5651 from '@/assets/img-5651.jpg';
+import img5658 from '@/assets/img-5658.jpg';
+import img5660 from '@/assets/img-5660.jpg';
+import logoFredys from '@/assets/fredys-bodenbelaege-logo.jpg';
 
 const Gallery = () => {
   const allImages = [
@@ -148,6 +159,66 @@ const Gallery = () => {
       description: 'Professionelle Bodenverlegung in der Küche',
       category: 'Projekte',
       image: img1356
+    },
+    {
+      title: 'Firmenlogo Fredy\'s Bodenbeläge',
+      description: 'Offizielles Logo – Branding und Wiedererkennung',
+      category: 'Branding',
+      image: logoFredys
+    },
+    {
+      title: 'Vorbereitung Fischgrat',
+      description: 'Fischgrat-Elemente vorbereitet – mobile Werkstatt',
+      category: 'Installation',
+      image: img9792
+    },
+    {
+      title: 'Eichentreppe',
+      description: 'Passgenau verkleidete Treppenstufen aus Eiche',
+      category: 'Treppen',
+      image: img0071
+    },
+    {
+      title: 'Partner & Lieferanten',
+      description: 'Starke Markenpartnerschaften für Top-Qualität',
+      category: 'Partner',
+      image: img0146
+    },
+    {
+      title: 'Naturfaser-Teppichkollektion',
+      description: 'Hochwertige Naturfasern für langlebige Teppichböden',
+      category: 'Teppich',
+      image: img5655
+    },
+    {
+      title: 'Designbelag Musterfächer',
+      description: 'Aktuelle Designbeläge in zahlreichen Farben',
+      category: 'Beläge',
+      image: img5661
+    },
+    {
+      title: 'Vinyl Kollektion',
+      description: 'Aktuelle Vinylsortimente – robust und pflegeleicht',
+      category: 'Vinyl',
+      image: img7053
+    },
+    {
+      title: 'Schmutzfangmatten Muster',
+      description: 'Effektive Eingangslösungen für saubere Böden',
+      category: 'Muster',
+      image: img5651
+    },
+    {
+      title: 'Farbfächer Textilbeläge',
+      description: 'Breites Farbspektrum für textile Bodenbeläge',
+      category: 'Teppich',
+      image: img5658
+    },
+    {
+      title: 'Steinoptik Beläge',
+      description: 'Moderne Steinoptik-Designs für elegante Räume',
+      category: 'Beläge',
+      image: img5660
     }
   ];
 
@@ -169,7 +240,7 @@ const Gallery = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 text-primary">Komplette Bildergalerie</h1>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Entdecken Sie unsere Sammlung von 20 hochwertigen Arbeiten, Materialien und Projekten.
+              Entdecken Sie unsere Sammlung von 30 hochwertigen Arbeiten, Materialien und Projekten.
               Von der ersten Beratung bis zur finalen Installation - sehen Sie die Qualität und Vielfalt unserer Arbeit.
             </p>
           </div>
@@ -181,6 +252,7 @@ const Gallery = () => {
                   <img 
                     src={item.image} 
                     alt={item.title}
+                    loading="lazy"
                     className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                   />
                   <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>

@@ -135,12 +135,13 @@ const GallerySection = () => {
         </div>
         
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {galleryItems.map((item, index) => (
+          {galleryItems.slice(0, 4).map((item, index) => (
             <Card key={index} className="group hover:shadow-xl transition-all duration-300 overflow-hidden">
               <div className="aspect-[4/3] overflow-hidden">
                 <img 
                   src={item.image} 
                   alt={item.title}
+                  loading="lazy"
                   className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 />
                 <div className="absolute inset-0 bg-black/0 group-hover:bg-black/10 transition-colors"></div>
@@ -165,7 +166,7 @@ const GallerySection = () => {
             className="border-gold text-gold hover:bg-gold hover:text-white"
             asChild
           >
-            <a href="/gallery">Alle Bilder anzeigen (20 Bilder)</a>
+            <a href="/gallery">Alle Bilder anzeigen (24 Bilder)</a>
           </Button>
         </div>
       </div>

@@ -101,7 +101,7 @@ const ContactSection = () => {
                   className="border-green-500 text-green-600 hover:bg-green-500 hover:text-white w-full"
                   asChild
                 >
-                  <a href="https://api.whatsapp.com/send?phone=%2B41798703420">WhatsApp</a>
+                  <a href="https://wa.me/41798703420" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp Chat mit Fredy">WhatsApp</a>
                 </Button>
                 <Button 
                   variant="outline"
