@@ -5,142 +5,79 @@ import Navigation from '@/components/Navigation';
 import { ArrowLeft } from 'lucide-react';
 import { Link } from 'react-router-dom';
 
-// Import all original gallery images
-import heroBackground from '@/assets/hero-background.jpg';
-import kautschukBodenbelag from '@/assets/kautschuk-bodenbelag.jpg';
-import korkBodenbelag from '@/assets/kork-bodenbelag.jpg';
-import laminatKork from '@/assets/laminat-kork.jpg';
-import laminatMusterfaecher from '@/assets/laminat-musterfaecher.png';
-import linoleumBodenbelag from '@/assets/linoleum-bodenbelag.jpg';
-import musterkollektion from '@/assets/musterkollektion.png';
-import parkettKollektion from '@/assets/parkett-kollektion.png';
-import parkettVerlegen from '@/assets/parkett-verlegen.jpg';
-import partnerLieferanten from '@/assets/partner-lieferanten.png';
-import reparaturen from '@/assets/reparaturen.jpg';
-import silikonAbdichtung from '@/assets/silikon-abdichtung.jpg';
-import sockelInstallation from '@/assets/sockel-installation.jpg';
-import steinKeramik from '@/assets/stein-keramik.jpg';
-import teppichKautschuk from '@/assets/teppich-kautschuk.jpg';
-import vinylLinoleum from '@/assets/vinyl-linoleum.jpg';
-import wandgestaltung from '@/assets/wandgestaltung.png';
-import wandschutz from '@/assets/wandschutz.jpg';
-import farbMusterfaecher from '@/assets/farb-musterfaecher.png';
+// Import new gallery images
+import img6926 from '@/assets/img-6926.jpg';
+import img6581 from '@/assets/img-6581.jpg';
+import img6579 from '@/assets/img-6579.jpg';
+import img6576 from '@/assets/img-6576.jpg';
+import img6577 from '@/assets/img-6577.jpg';
+import img4891 from '@/assets/img-4891.jpg';
+import img6573 from '@/assets/img-6573.jpg';
+import img5649 from '@/assets/img-5649.jpg';
+import img5643 from '@/assets/img-5643.jpg';
+import img9785 from '@/assets/img-9785.jpg';
 
 const Gallery = () => {
   const allImages = [
     {
-      title: 'Bodenbelag Musterkollektion',
-      description: 'Umfangreiche Auswahl an verschiedenen Bodenbelägen und Mustern',
-      category: 'Muster',
-      image: musterkollektion
-    },
-    {
-      title: 'Wandgestaltung Projekt',
-      description: 'Professionelle Wandverkleidung mit floralem Design',
-      category: 'Wandbelag',
-      image: wandgestaltung
-    },
-    {
-      title: 'Partner & Lieferanten',
-      description: 'Unsere hochwertigen Markenpartner und Lieferanten',
-      category: 'Partner',
-      image: partnerLieferanten
-    },
-    {
-      title: 'Laminat Musterfächer',
-      description: 'Vielfältige Laminat-Auswahl in verschiedenen Farbtönen',
-      category: 'Laminat',
-      image: laminatMusterfaecher
-    },
-    {
-      title: 'Parkett Kollektion',
-      description: 'Hochwertige Parkett-Muster verschiedener Holzarten',
-      category: 'Parkett',
-      image: parkettKollektion
-    },
-    {
-      title: 'Farb-Musterfächer',
+      title: 'Farbmusterfächer',
       description: 'Umfangreiche Farbpalette für Ihre perfekte Auswahl',
       category: 'Farben',
-      image: farbMusterfaecher
+      image: img6926
     },
     {
-      title: 'Hero Background',
-      description: 'Professionelle Bodenbelagsarbeiten in verschiedenen Umgebungen',
-      category: 'Projekte',
-      image: heroBackground
-    },
-    {
-      title: 'Kautschuk Bodenbelag',
-      description: 'Hochwertige Kautschuk-Bodenbeläge für verschiedene Anwendungen',
-      category: 'Kautschuk',
-      image: kautschukBodenbelag
-    },
-    {
-      title: 'Kork Bodenbelag',
-      description: 'Natürliche Kork-Bodenbeläge für nachhaltiges Wohnen',
-      category: 'Kork',
-      image: korkBodenbelag
-    },
-    {
-      title: 'Laminat & Kork Kombination',
-      description: 'Innovative Kombination aus Laminat und Kork-Materialien',
-      category: 'Laminat',
-      image: laminatKork
-    },
-    {
-      title: 'Linoleum Bodenbelag',
-      description: 'Klassische Linoleum-Böden in modernen Designs',
-      category: 'Linoleum',
-      image: linoleumBodenbelag
-    },
-    {
-      title: 'Parkett Verlegung',
-      description: 'Professionelle Parkett-Verlegung mit präziser Handwerkskunst',
+      title: 'Parkett Musterfächer',
+      description: 'Hochwertige Parkett-Muster verschiedener Holzarten',
       category: 'Parkett',
-      image: parkettVerlegen
+      image: img6581
     },
     {
-      title: 'Reparaturen',
-      description: 'Fachgerechte Reparaturen und Restaurierung von Bodenbelägen',
-      category: 'Service',
-      image: reparaturen
+      title: 'Laminat Kollektion mit Katalog',
+      description: 'Vielfältige Laminat-Auswahl in verschiedenen Farbtönen mit Produktkatalog',
+      category: 'Laminat',
+      image: img6579
     },
     {
-      title: 'Silikon Abdichtung',
-      description: 'Präzise Silikon-Abdichtungsarbeiten für perfekte Abschlüsse',
-      category: 'Service',
-      image: silikonAbdichtung
-    },
-    {
-      title: 'Sockel Installation',
-      description: 'Fachgerechte Installation von Sockeln und Abschlussleisten',
-      category: 'Service',
-      image: sockelInstallation
-    },
-    {
-      title: 'Stein & Keramik',
-      description: 'Hochwertige Stein- und Keramikbeläge für anspruchsvolle Projekte',
-      category: 'Stein',
-      image: steinKeramik
-    },
-    {
-      title: 'Teppich & Kautschuk',
-      description: 'Spezielle Teppich- und Kautschuk-Lösungen für verschiedene Bereiche',
-      category: 'Teppich',
-      image: teppichKautschuk
-    },
-    {
-      title: 'Vinyl & Linoleum',
-      description: 'Moderne Vinyl- und Linoleum-Böden für jeden Wohnbereich',
-      category: 'Vinyl',
-      image: vinylLinoleum
-    },
-    {
-      title: 'Wandschutz',
-      description: 'Professioneller Wandschutz und Wandverkleidungen',
+      title: 'Wandverkleidung Musterfächer',
+      description: 'Professionelle Wandverkleidungsmuster und Designs',
       category: 'Wandbelag',
-      image: wandschutz
+      image: img6576
+    },
+    {
+      title: 'Bodenbelag Musterkollektion',
+      description: 'Umfangreiche Auswahl an verschiedenen Bodenbelägen',
+      category: 'Muster',
+      image: img6577
+    },
+    {
+      title: 'Fertig verlegter Parkettboden',
+      description: 'Professionell verlegter Parkettboden mit Fischgrätmuster',
+      category: 'Projekte',
+      image: img4891
+    },
+    {
+      title: 'Materialsammlung Bodenbeläge',
+      description: 'Verschiedene Materialproben für Bodenbelagsauswahl',
+      category: 'Muster',
+      image: img6573
+    },
+    {
+      title: 'Parkett Musterfächer Set',
+      description: 'Komplette Parkett-Mustersammlung für die perfekte Auswahl',
+      category: 'Parkett',
+      image: img5649
+    },
+    {
+      title: 'Holzmuster Kollektion',
+      description: 'Vielfältige Holzmuster für verschiedene Anwendungsbereiche',
+      category: 'Holz',
+      image: img5643
+    },
+    {
+      title: 'Parkettboden Installation',
+      description: 'Professionelle Verlegung von Parkettböden in Winkelmuster',
+      category: 'Installation',
+      image: img9785
     }
   ];
 
@@ -162,7 +99,7 @@ const Gallery = () => {
           <div className="text-center mb-16">
             <h1 className="text-5xl font-bold mb-6 text-primary">Komplette Bildergalerie</h1>
             <p className="text-xl text-muted-foreground max-w-4xl mx-auto">
-              Entdecken Sie unsere Sammlung von 19 originalen Arbeiten, Materialien und Projekten. 
+              Entdecken Sie unsere Sammlung von 10 hochwertigen Arbeiten, Materialien und Projekten. 
               Von der ersten Beratung bis zur finalen Installation - sehen Sie die Qualität und Vielfalt unserer Arbeit.
             </p>
           </div>

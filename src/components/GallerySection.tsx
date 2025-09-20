@@ -2,64 +2,55 @@ import React from 'react';
 import { Card, CardContent } from '@/components/ui/card';
 import { Button } from '@/components/ui/button';
 
-// Import all original gallery images
-import heroBackground from '@/assets/hero-background.jpg';
-import kautschukBodenbelag from '@/assets/kautschuk-bodenbelag.jpg';
-import korkBodenbelag from '@/assets/kork-bodenbelag.jpg';
-import laminatKork from '@/assets/laminat-kork.jpg';
-import laminatMusterfaecher from '@/assets/laminat-musterfaecher.png';
-import linoleumBodenbelag from '@/assets/linoleum-bodenbelag.jpg';
-import musterkollektion from '@/assets/musterkollektion.png';
-import parkettKollektion from '@/assets/parkett-kollektion.png';
-import parkettVerlegen from '@/assets/parkett-verlegen.jpg';
-import partnerLieferanten from '@/assets/partner-lieferanten.png';
-import reparaturen from '@/assets/reparaturen.jpg';
-import silikonAbdichtung from '@/assets/silikon-abdichtung.jpg';
-import sockelInstallation from '@/assets/sockel-installation.jpg';
-import steinKeramik from '@/assets/stein-keramik.jpg';
-import teppichKautschuk from '@/assets/teppich-kautschuk.jpg';
-import vinylLinoleum from '@/assets/vinyl-linoleum.jpg';
-import wandgestaltung from '@/assets/wandgestaltung.png';
-import wandschutz from '@/assets/wandschutz.jpg';
-import farbMusterfaecher from '@/assets/farb-musterfaecher.png';
+// Import new gallery images
+import img6926 from '@/assets/img-6926.jpg';
+import img6581 from '@/assets/img-6581.jpg';
+import img6579 from '@/assets/img-6579.jpg';
+import img6576 from '@/assets/img-6576.jpg';
+import img6577 from '@/assets/img-6577.jpg';
+import img4891 from '@/assets/img-4891.jpg';
+import img6573 from '@/assets/img-6573.jpg';
+import img5649 from '@/assets/img-5649.jpg';
+import img5643 from '@/assets/img-5643.jpg';
+import img9785 from '@/assets/img-9785.jpg';
 
 const GallerySection = () => {
   const galleryItems = [
     {
-      title: 'Bodenbelag Musterkollektion',
-      description: 'Umfangreiche Auswahl an verschiedenen Bodenbelägen und Mustern',
-      category: 'Muster',
-      image: musterkollektion
-    },
-    {
-      title: 'Wandgestaltung Projekt',
-      description: 'Professionelle Wandverkleidung mit floralem Design',
-      category: 'Wandbelag',
-      image: wandgestaltung
-    },
-    {
-      title: 'Partner & Lieferanten',
-      description: 'Unsere hochwertigen Markenpartner und Lieferanten',
-      category: 'Partner',
-      image: partnerLieferanten
-    },
-    {
-      title: 'Laminat Musterfächer',
-      description: 'Vielfältige Laminat-Auswahl in verschiedenen Farbtönen',
-      category: 'Laminat',
-      image: laminatMusterfaecher
-    },
-    {
-      title: 'Parkett Kollektion',
-      description: 'Hochwertige Parkett-Muster verschiedener Holzarten',
-      category: 'Parkett',
-      image: parkettKollektion
-    },
-    {
-      title: 'Farb-Musterfächer',
+      title: 'Farbmusterfächer',
       description: 'Umfangreiche Farbpalette für Ihre perfekte Auswahl',
       category: 'Farben',
-      image: farbMusterfaecher
+      image: img6926
+    },
+    {
+      title: 'Parkett Musterfächer',
+      description: 'Hochwertige Parkett-Muster verschiedener Holzarten',
+      category: 'Parkett',
+      image: img6581
+    },
+    {
+      title: 'Laminat Kollektion',
+      description: 'Vielfältige Laminat-Auswahl in verschiedenen Farbtönen',
+      category: 'Laminat',
+      image: img6579
+    },
+    {
+      title: 'Wandverkleidung Musterfächer',
+      description: 'Professionelle Wandverkleidungsmuster und Designs',
+      category: 'Wandbelag',
+      image: img6576
+    },
+    {
+      title: 'Bodenbelag Musterkollektion',
+      description: 'Umfangreiche Auswahl an verschiedenen Bodenbelägen',
+      category: 'Muster',
+      image: img6577
+    },
+    {
+      title: 'Fertig verlegter Parkettboden',
+      description: 'Professionell verlegter Parkettboden mit Fischgrätmuster',
+      category: 'Projekte',
+      image: img4891
     }
   ];
 
@@ -104,7 +95,7 @@ const GallerySection = () => {
             className="border-gold text-gold hover:bg-gold hover:text-white"
             asChild
           >
-            <a href="/gallery">Alle Bilder anzeigen (19 Bilder)</a>
+            <a href="/gallery">Alle Bilder anzeigen (10 Bilder)</a>
           </Button>
         </div>
       </div>
