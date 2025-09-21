@@ -2,8 +2,7 @@ import React from 'react';
 import { Button } from '@/components/ui/button';
 
 const WhatsAppButton = () => {
-  const number = '41798703420'; // E.164 without plus for wa.me
-  const url = `https://wa.me/${number}`;
+  const url = 'https://api.whatsapp.com/send?phone=%2B41798703420';
 
   return (
     <div className="fixed bottom-6 right-6 z-50">
